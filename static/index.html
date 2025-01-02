@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Player</title>
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+        <script src="js/songHandler.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Ak Music Player</h1>
+        </div>
+        <div class="container">
+
+            <div id="sidebar-container">
+                <h3>To Play</h3>
+                <br>
+                <button id="toQuery">Search for Song</button>
+                <br>
+                <input type="text" id="query" placeholder="Enter song name">
+            </div>
+
+            <div id="player-container">
+                <div id="art-container">
+                    <img id="cover" alt="Album Art" src="tempCover.png">
+                </div>
+                <div id="controls">
+                    <button id="play">Play</button>
+                    <button id="pause">Pause</button>
+                </div>
+                <div id="progress-container">
+                    <progress id="progress" value="0" max="100"></progress>
+                </div>
+            </div>
+        </div>
+        <p id="cover_errormsg"></p>
+        <p id="song_errormsg"></p>
+    </body>
+</html>

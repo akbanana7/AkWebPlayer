@@ -1,0 +1,108 @@
+* {
+    background-color: #18191A;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+#header {
+    background-color: #35393C;
+    border: 4px solid #63CCCA;
+    width: 20%;
+    height: auto;
+    align-self: left;
+    margin-top: 2%;
+}
+
+#header h1 {
+    background-color: #35393C;
+}
+
+.container {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+#player-container {
+    border: 4px solid #63CCCA;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#art-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#art-container img {
+    width: 30%;
+    height: auto;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 30%;
+    border: 4px solid #63CCCA;
+}
+
+#controls button {
+    background-color: #63CCCA;
+    border: 2px solid #63CCCA;
+    border-radius: 5px;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px;
+    margin: 4px;
+}
+
+#sidebar-container {
+    flex: 0 0 15%; /* Sidebar takes up 15% of the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: left;
+    border: 4px solid #63CCCA;
+    height: 100%;
+}
+#toQuery {
+    box-shadow: none;
+    background-color: #18191A;
+    border: 4px solid #63CCCA;
+    color: white;
+    font-weight: bold;
+}
+#progress {
+    background-color: white;
+    border: 2px solid #63CCCA;
+    border-radius: 5px;
+}
+
+#progress::-webkit-progress-bar {
+    background-color: white;
+}
+
+#progress::-webkit-progress-value {
+    background-color: #63CCCA;
+}
+
+#progress::-moz-progress-bar {
+    background-color: #63CCCA;
+}
+
+#cover_errormsg {
+    color: red;
+    font-weight: bolder;
+    font-size: 10px;
+}
